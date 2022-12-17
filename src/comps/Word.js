@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import "./word.css";
 let animals = [
   "Aardvark",
