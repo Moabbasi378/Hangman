@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "bold-font";
+  src: url("../FredokaOne-Regular.ttf");
+}
+
+.nav-bar {
+  background-color: rgb(129, 129, 236);
+  margin: 5px;
+  margin-top: 20px;
+  border-radius: 5px;
+  justify-content: center;
+  display: flex;
+}
+.hint {
+  background-color: rgba(127, 189, 189);
+  border: none;
+  width: 90px;
+  height: 50px;
+  margin: 10px;
+  font-family: "bold-font";
+  font-size: larger;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 2s;
+  border: 1px solid rgba(61, 85, 85, 0.726);
+}
+
+.hint:hover {
+  transform: scale(1.1);
+  background-color: azure;
+}
+
+.game-name {
+  font-family: "bold-font";
+  font-weight: lighter;
+  color: rgb(127, 189, 189);
+  font-size: 2.8rem;
+  margin: auto;
+  -webkit-text-stroke: 1px rgb(61, 85, 85);
+}

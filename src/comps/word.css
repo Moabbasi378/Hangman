@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "bold-font";
+  src: url("../FredokaOne-Regular.ttf");
+}
+
+.word {
+  display: flex;
+  margin: auto;
+  transition: 2s;
+}
+
+.letter {
+  font-family: "bold-font";
+  margin: 5px;
+  font-size: 5rem;
+  transition: 2s;
+  color: rgb(127, 189, 189);
+}

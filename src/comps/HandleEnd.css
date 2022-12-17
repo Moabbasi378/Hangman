@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "bold-font";
+  src: url("../FredokaOne-Regular.ttf");
+}
+
+.lost-massage {
+  font-family: "bold-font";
+  font-weight: lighter;
+  color: rgb(127, 189, 189);
+  font-size: 1rem;
+  -webkit-text-stroke: 1px rgb(61, 85, 85);
+  margin-left: 5px;
+  margin: auto;
+}
+/* .win-massage {
+  font-family: "bold-font";
+  font-weight: lighter;
+  color: rgb(127, 189, 189);
+  font-size: 1rem;
+  -webkit-text-stroke: 1px rgb(61, 85, 85);
+  margin-left: 5px;
+  margin: auto;
+  display: none;
+} */
+
+#win {
+  display: none;
+}
+#lost {
+  display: none;
+}

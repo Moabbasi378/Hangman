@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "bold-font";
+  src: url("../FredokaOne-Regular.ttf");
+}
+
+.keyboard {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.letter-button {
+  font-family: "bold-font";
+  background-color: rgb(127, 189, 189);
+  border: none;
+  margin: 5px;
+  height: 60px;
+  width: 60px;
+  font-size: 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 2s;
+}
+.letter-button:hover {
+  background-color: azure;
+  transition: 0.9s;
+  transform: scale(1.1);
+}

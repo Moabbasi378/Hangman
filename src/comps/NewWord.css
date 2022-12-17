@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "bold-font";
+  src: url("../FredokaOne-Regular.ttf");
+}
+
+.new-word {
+  background-color: rgb(127, 189, 189);
+  border: none;
+  width: 90px;
+  height: 50px;
+  margin: 10px;
+  font-family: "bold-font";
+  font-size: larger;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 2s;
+  border: 1px solid rgb(61, 85, 85);
+}
+
+.new-word:hover {
+  transform: scale(1.1);
+  background-color: azure;
+}

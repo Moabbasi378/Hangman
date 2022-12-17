@@ -1,0 +1,11 @@
+.col {
+  stroke: rgb(127, 189, 189);
+
+  margin-top: 30px;
+  display: flex;
+  transition: 1s;
+  margin: auto;
+}
+#hang {
+  display: none;
+}
