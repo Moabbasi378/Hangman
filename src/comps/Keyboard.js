@@ -9,22 +9,37 @@ export default function Keyboard({ checker }) {
   return (
     <div id="keyboard" className="keyboard">
       <div className="first-row">
-        {letters.map((letter) => (
-          <button id={letter} className="letter-button" onClick={checker}>
+        {letters.map((letter, key) => (
+          <button
+            id={letter}
+            key={key}
+            className="letter-button"
+            onClick={checker}
+          >
             {letter}
           </button>
         ))}
       </div>
       <div className="second-row">
-        {letters2.map((letter) => (
-          <button id={letter} className="letter-button" onClick={checker}>
+        {letters2.map((letter, key) => (
+          <button
+            id={letter}
+            key={key}
+            className="letter-button"
+            onClick={checker}
+          >
             {letter}
           </button>
         ))}
       </div>
       <div className="third-row">
-        {letters3.map((letter) => (
-          <button id={letter} className="letter-button" onClick={checker}>
+        {letters3.map((letter, key) => (
+          <button
+            id={letter}
+            key={key}
+            className="letter-button"
+            onClick={checker}
+          >
             {letter}
           </button>
         ))}

@@ -228,24 +228,15 @@ const word = (random, animals[random]).toLowerCase();
 console.log(word);
 let list = [];
 export default function Words() {
-  // useEffect(() => {
-  //   word.split("").map((char) => {
-  //     if (document.getElementById(char).innerHTML === "_") {
-  //       console.log("winner");
-  //     }
-  //   });
-  // });
-
   return (
     <div className="word" id="word">
-      {word.split("").map((letter) => {
-        // console.log(list);
+      {word.split("").map((letter, key) => {
         list.push(letter);
         return (
           <div
             id={letter.toUpperCase()}
             className={`letter ${letter.toUpperCase()}`}
-            key={letter}
+            key={key}
           >
             _
           </div>

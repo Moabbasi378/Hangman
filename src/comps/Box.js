@@ -47,7 +47,6 @@ export default function Box() {
       status = false;
       listawnser.map((letter) => {
         if (document.getElementById(letter)) {
-          console.log(letter);
           const el = document.querySelectorAll(`.${letter}`);
           for (let i = 0; i < el.length; i++) {
             el[i].innerHTML = letter.toLowerCase();
@@ -61,7 +60,6 @@ export default function Box() {
     const elements = document.querySelectorAll(".letter");
     let list = [];
     for (let i = 0; i < elements.length; i++) {
-      console.log(elements[i].innerHTML === "_");
       if (elements[i].innerHTML === "_") {
         list.push(elements[i].innerHTML === "_");
       }
