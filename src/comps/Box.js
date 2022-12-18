@@ -48,8 +48,12 @@ export default function Box() {
       listawnser.map((letter) => {
         if (document.getElementById(letter)) {
           console.log(letter);
-          document.getElementById(letter).innerHTML = letter.toLowerCase();
+          const el = document.querySelectorAll(`.${letter}`);
+          for (let i = 0; i < el.length; i++) {
+            el[i].innerHTML = letter.toLowerCase();
+          }
         }
+        return undefined;
       });
     }
 
