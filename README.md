@@ -1,4 +1,4 @@
-# HANGMAN GAME WHIT REACT
+# HANGMAN GAME WITH REACT
 
 **Hangman is a guessing game of animal names.The word to guess is represented by a row of dashes representing each letter of the word.If the player suggests a letter which occurs in the word, It is written in all its correct positions. If the suggested letter does not occur in the word, it is added one element of a hanged stick figure as a tally mark. The game ends once the word is guessed, or if the stick figure is complete.**
 
