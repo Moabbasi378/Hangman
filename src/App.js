@@ -1,12 +1,10 @@
 import "./App.css";
-import Box from "./comps/Box";
-import Nav from "./comps/Nav";
+import { Home } from "./pages/Home/Index";
 
 function App() {
   return (
     <div className="App">
-      <Nav />
-      <Box />
+      <Home />
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import "./Hangman.css";
 
-export default function Hangman() {
+export function Hangman() {
   return (
     <svg
       className="col"

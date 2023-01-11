@@ -1,6 +1,6 @@
 import "./HandleEnd.css";
 
-export default function Endmassage() {
+export function Endmassage() {
   return (
     <div className="lost-massage">
       <h1 id="lost">better Luck Next Time</h1>

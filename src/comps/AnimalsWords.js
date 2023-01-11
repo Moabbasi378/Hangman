@@ -1,4 +1,4 @@
-import "./word.css";
+import "./AnimalsWords.css";
 let animals = [
   "Aardvark",
   "Albatross",
@@ -227,7 +227,7 @@ const random = Math.floor(Math.random() * animals.length);
 const word = (random, animals[random]).toLowerCase();
 console.log(word);
 let list = [];
-export default function Words() {
+export function AnimalsWords() {
   return (
     <div className="word" id="word">
       {word.split("").map((letter, key) => {

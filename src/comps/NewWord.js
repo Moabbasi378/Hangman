@@ -1,6 +1,6 @@
 import "./NewWord.css";
 
-export default function NewWord() {
+export function NewWord() {
   function refresh() {
     window.location.reload();
   }

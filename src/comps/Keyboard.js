@@ -1,7 +1,7 @@
 // import { useEffect, useState } from "react";//
 import "./Keyboard.css";
 
-export default function Keyboard({ checker }) {
+export function Keyboard({ checker }) {
   const letters = "qwertyuiop".split("");
   const letters2 = "asdfghjkl".split("");
   const letters3 = "zxcvbnm".split("");

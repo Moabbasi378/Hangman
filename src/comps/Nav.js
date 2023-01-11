@@ -1,5 +1,6 @@
+import { Link } from "react-router-dom";
 import "./Nav.css";
-import NewWord from "./NewWord";
+import { NewWord } from "./NewWord";
 
 function help() {
   function randomLetter() {
@@ -26,11 +27,16 @@ function help() {
   document.getElementById("hint").disabled = true;
 }
 
-export default function Nav() {
+export function Nav() {
   return (
     <div className="nav-bar">
       <NewWord />
-      <h2 className="game-name">THE HANGMAN</h2>
+
+      {/* <Link to={"/"}> */}
+      <Link to="/" className="game-name">
+        THE HANGMAN
+      </Link>
+      {/* </Link> */}
       <button id="hint" className="hint" onClick={help}>
         Hint
       </button>

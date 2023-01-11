@@ -1,14 +1,14 @@
 import "./Box.css";
-import Hangman from "./Hangman";
-import Keyboard from "./Keyboard";
-import Words from "./Word";
-import UsedWord from "./UsedWord";
-import Endmassage from "./HandleEnd";
+import { Hangman } from "./Hangman";
+import { Keyboard } from "./Keyboard";
+import { AnimalsWords } from "./AnimalsWords";
+import { UsedWord } from "./UsedWord";
+import { Endmassage } from "./HandleEnd";
 
 let UsedWordList = [];
 const listawnser = "QWERTYUIOPASDFGHJKLZXCVBNM".split("");
 
-export default function Box() {
+export function Box() {
   let counter = 0;
   let counter2 = 0;
   counter = counter + 1;
@@ -76,7 +76,7 @@ export default function Box() {
       <UsedWord />
       <Endmassage />
       <Hangman />
-      <Words />
+      <AnimalsWords />
       <Keyboard checker={handleClick} />
     </div>
   );
