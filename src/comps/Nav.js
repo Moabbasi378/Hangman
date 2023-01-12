@@ -32,11 +32,10 @@ export function Nav() {
     <div className="nav-bar">
       <NewWord />
 
-      {/* <Link to={"/"}> */}
       <Link to="/" className="game-name">
         THE HANGMAN
       </Link>
-      {/* </Link> */}
+
       <button id="hint" className="hint" onClick={help}>
         Hint
       </button>
