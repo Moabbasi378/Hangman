@@ -29,7 +29,7 @@ export function Home() {
                     <button className="button">Animals</button>
                   </Link>
                   <Link to="/footbal">
-                    <button className="button">Footbal</button>
+                    <button className="button">Football</button>
                   </Link>
                 </div>
               </div>
